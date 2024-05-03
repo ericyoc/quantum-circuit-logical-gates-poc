@@ -93,6 +93,9 @@ ProjectQ provides a set of built-in operations for logical gates, including:
 
 These gates can be applied to qubits using the `projectq.ops.C` function for controlled gates and the `projectq.ops.Tensor` function for combining multiple gates.
 
+## Missing (Not yet Implemented in this Python code)
+IBM Qiskit (Quantum Information Science Kit) is an open-source software development kit (SDK) for working with quantum computers. It provides tools for creating, manipulating, and running quantum programs using quantum circuits, pulses, and algorithms. 
+
 ## Usage
 
 To run the code and see the quantum circuits for each logical gate using different libraries, simply execute the Python script. The code will generate and print the circuit diagrams for each gate using Cirq, PyQuil, and ProjectQ. Additionally, a table comparing the gates and their implementations across the libraries will be displayed.
