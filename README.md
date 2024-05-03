@@ -2,6 +2,12 @@
 
 This Python code demonstrates the implementation of various logical gates using quantum circuits. The code utilizes three popular quantum computing libraries: Cirq, PyQuil, and ProjectQ. The logical gates implemented in this code include NOT, AND, XOR, OR, NOR, and NAND.
 
+
+# Motivating Article
+S. A. Metwalli and R. Van Meter, "Testing and Debugging Quantum Circuits," in IEEE Transactions on Quantum Engineering, vol. 5, pp. 1-15, 2024, Art no. 2500415, doi: 10.1109/TQE.2024.3374879.
+
+https://ieeexplore.ieee.org/abstract/document/10463159
+
 ## Logical Gates
 
 ### NOT Gate
