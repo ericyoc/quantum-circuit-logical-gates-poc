@@ -57,3 +57,5 @@ pip install cirq pyquil projectq tabulate
 ```
 
 Feel free to explore and experiment with the code to gain a better understanding of how logical gates are implemented using quantum circuits!
+
+Disclaimer This repository is intended for educational and research purposes.
