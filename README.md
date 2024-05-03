@@ -40,6 +40,7 @@ The quantum gates used in the construction of the logical gates are:
 ![](https://github.com/ericyoc/quantum-circuit-logical-gates/blob/main/restults_qc_logical_gates_compare.jpg)
 
 # Quantum Computing Platforms
+Each of these platforms provides a way to construct quantum circuits using logical gates and execute them on quantum hardware or simulators, making it easier for developers to explore and build quantum algorithms.
 
 ## Cirq
 
@@ -91,8 +92,6 @@ ProjectQ provides a set of built-in operations for logical gates, including:
 - `projectq.ops.Nand`: NAND gate
 
 These gates can be applied to qubits using the `projectq.ops.C` function for controlled gates and the `projectq.ops.Tensor` function for combining multiple gates.
-
-Each of these platforms provides a way to construct quantum circuits using logical gates and execute them on quantum hardware or simulators, making it easier for developers to explore and build quantum algorithms.
 
 ## Usage
 
