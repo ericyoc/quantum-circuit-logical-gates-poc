@@ -36,6 +36,9 @@ The quantum gates used in the construction of the logical gates are:
 - CNOT gate (controlled-NOT): A two-qubit gate that applies a NOT operation to the target qubit if the control qubit is in the state |1⟩.
 - Toffoli gate (CCNOT): A three-qubit gate that applies a controlled-controlled-NOT operation, flipping the state of the target qubit if both control qubits are in the state |1⟩.
 
+## Results
+[](https://github.com/ericyoc/quantum-circuit-logical-gates/blob/main/restults_qc_logical_gates_compare.jpg)
+
 ## Usage
 
 To run the code and see the quantum circuits for each logical gate using different libraries, simply execute the Python script. The code will generate and print the circuit diagrams for each gate using Cirq, PyQuil, and ProjectQ. Additionally, a table comparing the gates and their implementations across the libraries will be displayed.
