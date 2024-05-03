@@ -39,6 +39,61 @@ The quantum gates used in the construction of the logical gates are:
 ## Comparison Table
 ![](https://github.com/ericyoc/quantum-circuit-logical-gates/blob/main/restults_qc_logical_gates_compare.jpg)
 
+# Quantum Computing Platforms
+
+## Cirq
+
+Cirq is an open-source framework for programming quantum computers, developed by Google. It provides a way to write quantum circuits and algorithms using Python. Cirq supports a variety of quantum hardware backends, including Google's own Xmon qubits.
+
+### Logical Gates in Cirq
+
+Cirq provides implementations for various logical gates, including:
+
+- `cirq.X`: NOT gate
+- `cirq.AND`: AND gate
+- `cirq.XOR`: XOR gate
+- `cirq.OR`: OR gate
+- `cirq.NOR`: NOR gate
+- `cirq.NAND`: NAND gate
+
+These gates can be applied to qubits using the `cirq.Circuit` class.
+
+## PyQuil
+
+PyQuil is a Python library for quantum programming using the Quil language, developed by Rigetti Computing. It allows users to construct quantum circuits, manipulate qubits, and run programs on quantum hardware or simulators.
+
+### Logical Gates in PyQuil
+
+PyQuil provides functions to create logical gates, such as:
+
+- `pyquil.gates.X`: NOT gate
+- `pyquil.gates.AND`: AND gate
+- `pyquil.gates.XOR`: XOR gate
+- `pyquil.gates.OR`: OR gate
+- `pyquil.gates.NOR`: NOR gate
+- `pyquil.gates.NAND`: NAND gate
+
+These gates can be applied to qubits using the `pyquil.quil.Program` class.
+
+## ProjectQ
+
+ProjectQ is an open-source software framework for quantum computing, started at ETH Zurich. It allows users to implement quantum algorithms using a high-level Python interface, which can then be executed on quantum hardware or simulators.
+
+### Logical Gates in ProjectQ
+
+ProjectQ provides a set of built-in operations for logical gates, including:
+
+- `projectq.ops.X`: NOT gate
+- `projectq.ops.All`: AND gate
+- `projectq.ops.Xor`: XOR gate
+- `projectq.ops.Or`: OR gate
+- `projectq.ops.Nor`: NOR gate
+- `projectq.ops.Nand`: NAND gate
+
+These gates can be applied to qubits using the `projectq.ops.C` function for controlled gates and the `projectq.ops.Tensor` function for combining multiple gates.
+
+Each of these platforms provides a way to construct quantum circuits using logical gates and execute them on quantum hardware or simulators, making it easier for developers to explore and build quantum algorithms.
+
 ## Usage
 
 To run the code and see the quantum circuits for each logical gate using different libraries, simply execute the Python script. The code will generate and print the circuit diagrams for each gate using Cirq, PyQuil, and ProjectQ. Additionally, a table comparing the gates and their implementations across the libraries will be displayed.
