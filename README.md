@@ -37,7 +37,7 @@ The quantum gates used in the construction of the logical gates are:
 - Toffoli gate (CCNOT): A three-qubit gate that applies a controlled-controlled-NOT operation, flipping the state of the target qubit if both control qubits are in the state |1⟩.
 
 ## Results
-[](https://github.com/ericyoc/quantum-circuit-logical-gates/blob/main/restults_qc_logical_gates_compare.jpg)
+![](https://github.com/ericyoc/quantum-circuit-logical-gates/blob/main/restults_qc_logical_gates_compare.jpg)
 
 ## Usage
 
