@@ -40,7 +40,7 @@ The quantum gates used in the construction of the logical gates are:
 ![](https://github.com/ericyoc/quantum-circuit-logical-gates/blob/main/restults_qc_logical_gates_compare.jpg)
 
 # Quantum Computing Platforms
-Each of these platforms provides a way to construct quantum circuits using logical gates and execute them on quantum hardware or simulators, making it easier for developers to explore and build quantum algorithms.
+Cirq, PyQuil, and ProjectQ platforms provide a way to construct quantum circuits using logical gates and execute them on quantum hardware or simulators, making it easier for developers to explore and build quantum algorithms.
 
 ## Cirq
 
